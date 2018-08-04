@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".activity_penilaian">
+    android:orientation="vertical"
+    tools:context=".HasilPenilaian">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -21,7 +21,7 @@
             <ImageView
                 android:id="@+id/imageView2"
                 android:layout_width="wrap_content"
-                android:layout_height="82dp"
+                android:layout_height="75dp"
                 android:layout_weight="1"
                 android:src="@drawable/logo" />
 
@@ -39,36 +39,17 @@
             android:textStyle="bold" />
 
         <TextView
-            android:id="@+id/textView20"
+
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="PENILAIAN"
+            android:text="HASIL PENILAIAN"
             android:textAlignment="center"
             android:textColor="#000000"
             android:textSize="24sp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="15dp"
             android:textStyle="bold" />
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal">
-
-            <TextView
-                android:id="@+id/textView21"
-                android:layout_width="257dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:text="PERIODE"
-                android:textSize="18sp"
-                android:textStyle="bold" />
-
-            <Spinner
-                android:id="@+id/spinner2"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_weight="1" />
-
-        </LinearLayout>
 
         <Button
             android:id="@+id/button"
@@ -112,4 +93,4 @@
 
     </LinearLayout>
 
-</RelativeLayout>
+</LinearLayout>
