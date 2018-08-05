@@ -28,7 +28,6 @@
             android:name=".LoginActivity"
             android:screenOrientation="portrait"
             android:theme="@style/NoActionBar" />
-        <activity android:name=".activity_detail_karyawan" />
         <activity android:name=".activity_penilaian" />
         <activity android:name=".activity_lihat_data_karyawan" />
         <activity android:name=".activity_penilaian_perilaku" />

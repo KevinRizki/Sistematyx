@@ -96,9 +96,9 @@ public class DashboardActivity extends AppCompatActivity
 
             case R.id.nav_hasil:
                 if (findViewById(R.id.container) == null) {
-                    ActivityUtils.addFragment(this, R.id.container, new HasilPenilaian());
+                    ActivityUtils.addFragment(this, R.id.container, new PenilaianKerja());
                 } else {
-                    ActivityUtils.replaceFragment(this, R.id.container, new HasilPenilaian());
+                    ActivityUtils.replaceFragment(this, R.id.container, new PenilaianKerja());
                 }
                 break;
 //               Intent i = new Intent(DashboardActivity.this, activity_penilaian_kinerja.class);
